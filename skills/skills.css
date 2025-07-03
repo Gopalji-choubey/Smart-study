@@ -79,9 +79,38 @@ body {
   .hamburger { display: flex; }
 }
 
+*{box-sizing:border-box;padding:0;margin:0;font-family:Segoe UI,Arial,sans-serif;}
+
+body{background:var(--bg);color:var(--text);padding:2rem;}
+
+.search-wrapper{
+  max-width:600px;margin:auto  auto 2rem;position:relative;
+}
+#searchInput{
+  width:100%;padding:.9rem 1.2rem;border:2px solid var(--primary);
+  border-radius:50px;font-size:1rem;background:rgba(255,255,255,.05);color:var(--text);
+  outline:none;
+}
+#searchInput::placeholder{color:#a8b2d1;}
+
+#suggestionBox{
+  list-style:none;position:absolute;top:100%;left:0;width:100%;
+  background:#162a44;border:1px solid rgba(100,255,218,.25);border-top:none;
+  max-height:220px;overflow-y:auto;border-radius:0 0 12px 12px;z-index:10;
+}
+#suggestionBox li{
+  padding:.75rem 1rem;cursor:pointer;border-bottom:1px solid rgba(255,255,255,.07);
+}
+#suggestionBox li:hover{background:#1d3354;}
+
+.grid-wrapper{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:1rem;
+  max-width:920px;margin:auto;
+}
 
 .chapter-card{
-  margin-top: 100px;
   position:relative;
   background:#1d3354e0;border:1px solid rgba(100,255,218,.25);
   border-radius:14px;height:150px;display:flex;flex-direction:column;
