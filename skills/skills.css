@@ -92,3 +92,16 @@ body {
 .chapter-card.hidden{display:none;}
 
 .chapter-name{font-size:1rem;font-weight:600;margin-bottom:.6rem;}
+.play-btn{
+  padding:.45rem 1.6rem;font-size:.9rem;font-weight:600;color:var(--primary);
+  border:2px solid var(--primary);border-radius:40px;text-decoration:none;overflow:hidden;
+  position:relative;transition:color .3s,background .3s;
+  background-color: #64ffda;
+  color: #0a192f;
+}
+.play-btn::before{
+  content:"";position:absolute;inset:0;background:linear-gradient(120deg,#64ffda,#00ffff,#64ffda);
+  opacity:.18;border-radius:40px;animation:pulse 3.2s linear infinite;z-index:-1;
+}
+.play-btn:hover{background:var(--primary);color:var(--bg);}
+@keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.15);}}
