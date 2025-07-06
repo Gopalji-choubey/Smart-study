@@ -37,3 +37,7 @@ links.forEach(link =>
 function closePopup() {
   document.getElementById('popup').classList.add('hidden');
 }
+  if (!window.location.href.includes("?v=")) {
+    const now = new Date().getTime();
+    window.location.replace(window.location.href + "?v=" + now);
+  }
