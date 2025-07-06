@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics</title>
+        <link rel="icon" type="image/png" href="/IMAGES/images.png">
+    <link rel="stylesheet" href="physics.css">
+</head>
+<body>
+    <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+      <div class="logo-icon">SS</div>
+      <span class="logo-text">Smart-Study</span>
+    </div>
+
+    <!-- Mobile hamburger -->
+    <div class="hamburger" id="toggle">
+      <span></span><span></span><span></span>
+    </div>
+
+    <!-- Menu links -->
+    <div class="menu" id="menu">
+      <a href="/index.html">Home</a>
+      <a href="/Lectures/LECTURE.html">Lectures</a>
+      <a href="Dpp/Dpp.html">Dpp & Books</a>
+      <a href="#">Meet-me</a>
+    </div>
+  </nav>
+
+  <!-- ===== SEARCH + AUTOSUGGEST ===== -->
+  <div class="search-wrapper">
+    <input id="searchInput" type="text" placeholder="Search Class 10 science chapters…" />
+    <ul id="suggestionBox"></ul>
+  </div>
+
+  <!-- ===== CHAPTER GRID (4 per row on desktop) ===== -->
+  <div id="chapterGrid" class="grid-wrapper">
+    <!-- 15 chapter squares -->
+    <div class="chapter-card" data-chapter="Human Eye and Colorful world (lec-1)">
+      <span class="chapter-name">Human Eye and Colorful world <br> (lec-1)</span>
+      <a class="play-btn" href="#"  >Play Video</a>
+    </div>
+    <!-- 15 chapter squares -->
+    <div class="chapter-card" data-chapter="Human Eye and Colorful world (lec-2)">
+      <span class="chapter-name">Human Eye and Colorful world <br> (lec-2)</span>
+      <a class="play-btn" href="#"  >Play Video</a>
+    </div>
+
+    <div class="chapter-card" data-chapter="Electricity (lec-1)">
+      <span class="chapter-name">Electricity (lec-1)</span>
+      <a class="play-btn" href=" https://youtu.be/sroJLONWQvA"  >Play Video</a>
+    </div>
+
+    <div class="chapter-card" data-chapter="Electricity (lec-2)">
+      <span class="chapter-name">Electricity (lec-2)</span>
+      <a class="play-btn" href="https://youtu.be/axNlqqunvuk" >Play Video</a>
+    </div>
+
+    <div class="chapter-card" data-chapter="Electricity (lec-3)">
+      <span class="chapter-name">Electricity (lec-3)</span>
+      <a class="play-btn" href="https://youtu.be/euMdN92hjbU"  >Play Video</a>
+    </div>
+
+    <div class="chapter-card" data-chapter="Magnetic effect of electric current">
+      <span class="chapter-name">Magnetic effect and electric current</span>
+      <a class="play-btn" href="#"  >Play Video</a>
+    </div>
+
+    <div class="chapter-card" data-chapter="Source of energy">
+      <span class="chapter-name">Source of energy</span>
+      <a class="play-btn" href="#"  >Play Video</a>
+    </div>
+
+  </div>  
+
+</body>
+<script src="physics.js"></script>
+</html>
