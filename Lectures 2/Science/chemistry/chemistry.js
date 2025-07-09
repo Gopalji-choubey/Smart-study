@@ -20,16 +20,11 @@ links.forEach(link =>
 
 
 const chapters = [
-  "Acid base and salts lect 1",
-  "Acid base and salts lect 2",
-  "Acid base and salts lect 3",
-  "Acid base and salts lect 4",
-  "Acid base and salts lect 5 (part-1)",
-  "Acid base and salts lect 5 (part-2)",
-  "Acid base and salts lect 6",
-  "Metal and non metal",
-  "Carbon and its compound",
-  "Periodic classification of elements"
+  "Chemical equation and reaction (lecture-1)",
+  "Chemical equation and reaction (lecture-2)",
+  "Chemical equation and reaction (lecture-3)",
+  "Chemical equation and reaction (lecture-4)",
+  "Chemical equation and reaction (lecture-5)",
 ];
 
 const searchInput  = document.getElementById("searchInput");
