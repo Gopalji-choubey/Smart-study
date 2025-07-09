@@ -21,17 +21,9 @@ links.forEach(link =>
 
 const chapters = [
   "Trigonometry (lect-1)",
-  "Trigonometry (lect-2)",
   "Trigonometry (lect-3)",
-  "Trigonometry (lect-4)",
-  "Trigonometry (lect-5)",
-  "Some Applications of Trigonometry",
-  "Circles",
-  "Constructions",
-  "Areas Related to Circles",
-  "Surface Areas and Volumes",
-  "Statistics",
-  "Probability"
+  "Trigonometry (lect-6)",
+  "Trigonometry (lect-7)"
 ];
 
 const searchInput  = document.getElementById("searchInput");
