@@ -20,17 +20,11 @@ links.forEach(link =>
 
 
 const chapters = [
-  "Trigonometry (lect-1)",
-  "Trigonometry (lect-2)",
-  "Trigonometry (lect-3)",
-  "Trigonometry (lect-4)",
-  "Trigonometry (lect-5)",
-  "Some Applications of Trigonometry",
-  "Circles",
-  "Constructions",
-  "Areas Related to Circles",
-  "Surface Areas and Volumes",
-  "Statistics",
+  "Real number(lect-1)",
+  "Real number(lect-2)",
+  "Real number(lect-3)",
+  "Real number(lect-4)",
+  "Real number(lect-5)",
   "Probability"
 ];
 
