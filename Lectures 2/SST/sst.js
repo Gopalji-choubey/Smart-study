@@ -22,16 +22,10 @@ links.forEach(link =>
 const chapters = [
   "Resource and Development (lect-1)",
   "Resource and Development (lect-2)",
-  "Resource and Development (lect-3)",
-  "Resource and Development (lect-4)",
-  "Federalism (lect-1)",
-  "Federalism (lect-2)",
-  "Power sharing (lect-1)",
-  "Power sharing (lect-2)",
-  "Forest and Wildlife resources (lect-1)",
-  "Forest and Wildlife resources (lect-2)",
-  "Development (lect-1)",
-  "Development (lect-2)",
+  "The nationalism in europe (lect-1)",
+  "The nationalism in europe (lect-2)",
+  "The nationalism in europe (lect-3)",
+
 
   "Source of energy"
 ];
