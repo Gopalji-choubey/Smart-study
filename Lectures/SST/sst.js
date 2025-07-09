@@ -32,6 +32,8 @@ const chapters = [
   "Forest and Wildlife resources (lect-2)",
   "Development (lect-1)",
   "Development (lect-2)",
+  "nationalism in india (lect-1)",
+  "nationalism in india (lect-2)",
 
   "Source of energy"
 ];
